@@ -16,7 +16,6 @@ public class MyApplication extends Application{
 
     @Override public void onCreate() {
         super.onCreate();
-//        Fresco.initialize(this);//Fresco初始化
         MyApplication.mContext = getApplicationContext();
     }
 
